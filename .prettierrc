@@ -1,14 +1,21 @@
 {
-  "singleQuote": true,
+  "singleQuote": false,
   "trailingComma": "all",
   "tabWidth": 2,
   "arrowParens": "avoid",
   "bracketSpacing": true,
-  "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "printWidth": 100,
   "proseWrap": "always",
   "quoteProps": "as-needed",
   "semi": true,
-  "useTabs": false
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": [".eslintrc"],
+      "options": {
+        "trailingComma": "none"
+      }
+    }
+  ]
 }
